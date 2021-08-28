@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cicdsp-fx-qwp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cicdspFxQwp/CicdspFxQwpWebPart.js",
+          "manifest": "./src/webparts/cicdspFxQwp/CicdspFxQwpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CicdspFxQwpWebPartStrings": "lib/webparts/cicdspFxQwp/loc/{locale}.js"
+  }
+}
